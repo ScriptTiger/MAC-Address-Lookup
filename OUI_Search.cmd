@@ -1,8 +1,8 @@
 @echo off
 
-rem Set OUI lookup table file
-set MASTER=master.txt
-rem set MASTER=simplified.txt
+rem Set OUI lookup table file path
+set MASTER=%~dp0master.txt
+rem set MASTER=%~dp0simplified.txt
 
 rem Accept mac addresses as command-line arguments
 
