@@ -9,6 +9,7 @@ https://standards.ieee.org/develop/regauth/oui28/mam.csv
 
 https://standards.ieee.org/develop/regauth/oui/oui.csv
 
+Regularly synced to IEEE's daily updates.
 
 Master.txt: Complete record of all IEEE-registered OUI blocks reformatted for easier script use.
 
