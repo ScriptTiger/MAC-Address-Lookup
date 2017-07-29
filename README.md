@@ -1,7 +1,12 @@
 # MAC-Address-Lookup
 Lookup tables and tools for vendor OUI information.
 
-Master.txt: Complete record of all registered OUI blocks reformatted for easier script use.
+Original source files provided by IEEE:
+https://standards.ieee.org/develop/regauth/oui36/oui36.csv
+https://standards.ieee.org/develop/regauth/oui28/mam.csv
+https://standards.ieee.org/develop/regauth/oui/oui.csv
+
+Master.txt: Complete record of all IEEE-registered OUI blocks reformatted for easier script use.
 
 Simplified.txt: Same as master.txt, but block type and vendor address columns removed.
 
