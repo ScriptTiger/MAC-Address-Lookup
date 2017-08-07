@@ -11,8 +11,20 @@ https://standards.ieee.org/develop/regauth/oui/oui.csv
 
 Regularly synced to IEEE's daily updates.
 
-Master.txt: Complete record of all IEEE-registered OUI blocks reformatted for easier script use.
+Master.txt:
 
-Simplified.txt: Same as master.txt, but block type and vendor address columns removed.
+https://raw.githubusercontent.com/ScriptTiger/MAC-Address-Lookup/master/master.txt
 
-OUI_Search.cmd can be used interactively or simply by using the commmand "oui_search XX-XX-XX-XX-XX-XX" for quicker scripted searches. Accepts all standard mac address formats: XX-XX-XX-XX-XX-XX, XXXX-XXXX-XXXX, XX:XX:XX:XX:XX:XX, XXXX:XXXX:XXXX, XXXXXXXXXXXX, etc.
+Complete record of all IEEE-registered OUI blocks reformatted for easier script use.
+
+Simplified.txt:
+
+https://raw.githubusercontent.com/ScriptTiger/MAC-Address-Lookup/master/simplified.txt
+
+Same as master.txt, but block type and vendor address columns removed.
+
+OUI_Search.cmd:
+
+https://raw.githubusercontent.com/ScriptTiger/MAC-Address-Lookup/master/OUI_Search.cmd
+
+Can be used interactively or simply by using the commmand "oui_search XX-XX-XX-XX-XX-XX" for quicker scripted searches. Accepts all standard mac address formats: XX-XX-XX-XX-XX-XX, XXXX-XXXX-XXXX, XX:XX:XX:XX:XX:XX, XXXX:XXXX:XXXX, XXXXXXXXXXXX, etc.
