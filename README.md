@@ -1,6 +1,8 @@
 # MAC-Address-Lookup
 Lookup tables and tools for vendor OUI information.
 
+Just right-click any of the below links to download them to your computer. If you follow the link, it will just take you to a text file to view it in your browser.
+
 Original source files provided by IEEE:
 
 https://standards.ieee.org/develop/regauth/oui36/oui36.csv
