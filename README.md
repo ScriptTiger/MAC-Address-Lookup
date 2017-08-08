@@ -1,5 +1,5 @@
 # MAC-Address-Lookup
-Tired of paying a subscription service to access an API to resolve MAC address data? Just resolving locally and maintaining your own database for free with this repo sounds like a better plan!
+Tired of paying a subscription service to access an API to resolve MAC address data? Just resolving locally and maintaining your own database with this project is faster, cheaper (FREE!), and more secure.
 
 Just right-click any of the below links to download them to your computer. If you follow the link, it will just take you to a text file to view it in your browser.
 
