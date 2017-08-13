@@ -39,5 +39,6 @@ And then uncomment the following lines:
 rem set MASTER=%~dp0simplified.txt  
 rem if not "%~1"=="" set SEARCH=%~1&set FORMAT="tokens=2 delims={}"&goto MAC_Search  
 
+To edit the script, simply right-click the OUI_Search.cmd and select "Edit."  
 To comment a line out, add rem followed by a space at the beginning of the line.  
 To uncomment out a line, remove the rem followed by a space at the beggining of a line.  
