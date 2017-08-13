@@ -31,7 +31,7 @@ https://raw.githubusercontent.com/ScriptTiger/MAC-Address-Lookup/master/OUI_Sear
 
 Can be used interactively or simply by using the commmand "oui_search XX-XX-XX-XX-XX-XX" for quicker scripted searches. Accepts all standard mac address formats: XX-XX-XX-XX-XX-XX, XXXX-XXXX-XXXX, XX:XX:XX:XX:XX:XX, XXXX:XXXX:XXXX, XXXXXXXXXXXX, etc. This script requires either the Master or Simplified lookup tables above, based on the level of detail you require. If you just need to resolve MACs to vendor names, just use the Simplified. If you need to resolve MACs to the individual addresses of manufacture, use the Master.
 
-NOTE: If you decide to use the simplified master, please read the top few lines of the script carefully and comment out the following lines:
+NOTE: If you decide to use the simplified master, please read the top few lines of the script carefully and comment out the following lines:  
 set MASTER=%~dp0master.txt  
 if not "%~1"=="" set SEARCH=%~1&set FORMAT="tokens=3 delims={}"&goto MAC_Search  
 
