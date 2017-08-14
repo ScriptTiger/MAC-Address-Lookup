@@ -1,5 +1,12 @@
 @echo off
 
+rem =====
+rem For more information on ScriptTiger and more ScriptTiger scripts visit the following URL:
+rem https://scripttiger.github.io/
+rem Or visit the following URL for the latest information on this ScriptTiger script:
+rem https://github.com/ScriptTiger/MAC-Address-Lookup
+rem =====
+
 rem Set OUI lookup table file path
 set MASTER=%~dp0master.txt
 rem set MASTER=%~dp0simplified.txt
