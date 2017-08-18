@@ -41,4 +41,6 @@ rem if not "%~1"=="" set SEARCH=%~1&set FORMAT="tokens=2 delims={}"&goto MAC_Sea
 
 To edit the script, simply right-click the OUI_Search.cmd and select "Edit."  
 To comment a line out, add rem followed by a space at the beginning of the line.  
-To uncomment out a line, remove the rem followed by a space at the beggining of a line.  
+To uncomment out a line, remove the rem followed by a space at the beggining of a line.
+
+If you decide to clone this repo for whatever reason, be aware the histories of master.txt and simplified.txt are regularly cleaned to better manage GitHub resources due to their large file sizes and the volume with which they are updated.
