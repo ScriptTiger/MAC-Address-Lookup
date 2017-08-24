@@ -1,7 +1,7 @@
 # MAC-Address-Lookup
 Tired of paying a subscription service to access an API to resolve MAC address data? Just resolving locally and maintaining your own database with this project is faster, cheaper (FREE!), and more secure.
 
-Just right-click any of the below links to download them to your computer. If you follow the link, it will just take you to a text file to view it in your browser.
+Just right-click any of the below links to download them to your computer.
 
 Original source files provided by IEEE:
 
@@ -15,19 +15,19 @@ Regularly synced to IEEE's daily updates.
 
 Master.txt:
 
-https://raw.githubusercontent.com/ScriptTiger/MAC-Address-Lookup/master/master.txt
+https://scripttiger.github.io/macs/master.txt
 
 Complete record of all IEEE-registered OUI blocks reformatted for easier script use.
 
 Simplified.txt:
 
-https://raw.githubusercontent.com/ScriptTiger/MAC-Address-Lookup/master/simplified.txt
+https://scripttiger.github.io/macs/simplified.txt
 
 Same as master.txt, but block type and vendor address columns removed.
 
 OUI_Search.cmd:
 
-https://raw.githubusercontent.com/ScriptTiger/MAC-Address-Lookup/master/OUI_Search.cmd
+https://github.com/ScriptTiger/MAC-Address-Lookup/archive/master.zip
 
 Can be used interactively or simply by using the commmand "oui_search XX-XX-XX-XX-XX-XX" for quicker scripted searches. Accepts all standard mac address formats: XX-XX-XX-XX-XX-XX, XXXX-XXXX-XXXX, XX:XX:XX:XX:XX:XX, XXXX:XXXX:XXXX, XXXXXXXXXXXX, etc. This script requires either the Master or Simplified lookup tables above, based on the level of detail you require. If you just need to resolve MACs to vendor names, just use the Simplified. If you need to resolve MACs to the individual addresses of manufacture, use the Master.
 
@@ -42,5 +42,3 @@ rem if not "%~1"=="" set SEARCH=%~1&set FORMAT="tokens=2 delims={}"&goto MAC_Sea
 To edit the script, simply right-click the OUI_Search.cmd and select "Edit."  
 To comment a line out, add rem followed by a space at the beginning of the line.  
 To uncomment out a line, remove the rem followed by a space at the beggining of a line.
-
-If you decide to clone this repo for whatever reason, be aware the histories of master.txt and simplified.txt are regularly cleaned to better manage GitHub resources due to their large file sizes and the frequency with which they are updated.
