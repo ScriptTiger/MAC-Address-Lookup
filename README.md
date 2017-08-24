@@ -3,30 +3,27 @@ Tired of paying a subscription service to access an API to resolve MAC address d
 
 Just right-click any of the below links to download them to your computer.
 
-Original source files provided by IEEE:
-
-https://standards.ieee.org/develop/regauth/oui36/oui36.csv
-
-https://standards.ieee.org/develop/regauth/oui28/mam.csv
-
+Original source files provided by IEEE:  
+https://standards.ieee.org/develop/regauth/oui36/oui36.csv  
+https://standards.ieee.org/develop/regauth/oui28/mam.csv  
 https://standards.ieee.org/develop/regauth/oui/oui.csv
 
 Regularly synced to IEEE's daily updates.
 
-Master.txt:
-
+Master.txt:  
 https://scripttiger.github.io/macs/master.txt
 
 Complete record of all IEEE-registered OUI blocks reformatted for easier script use.
 
-Simplified.txt:
-
+Simplified.txt:  
 https://scripttiger.github.io/macs/simplified.txt
 
 Same as master.txt, but block type and vendor address columns removed.
 
-OUI_Search.cmd:
+You can download all of the above files packaged together from the following URL:  
+https://scripttiger.github.io/macs/OUI_Complete.zip
 
+To get started, download the below ZIP file and extract the contents to the same directory as either the master.txt or simplified.txt:  
 https://github.com/ScriptTiger/MAC-Address-Lookup/archive/master.zip
 
 Can be used interactively or simply by using the commmand "oui_search XX-XX-XX-XX-XX-XX" for quicker scripted searches. Accepts all standard mac address formats: XX-XX-XX-XX-XX-XX, XXXX-XXXX-XXXX, XX:XX:XX:XX:XX:XX, XXXX:XXXX:XXXX, XXXXXXXXXXXX, etc. This script requires either the Master or Simplified lookup tables above, based on the level of detail you require. If you just need to resolve MACs to vendor names, just use the Simplified. If you need to resolve MACs to the individual addresses of manufacture, use the Master.
