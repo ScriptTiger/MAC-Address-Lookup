@@ -40,3 +40,6 @@ rem if not "%~1"=="" set SEARCH=%~1&set FORMAT="tokens=2 delims={}"&goto MAC_Sea
 To edit the script, simply right-click the OUI_Search.cmd and select "Edit."  
 To comment a line out, add rem followed by a space at the beginning of the line.  
 To uncomment out a line, remove the rem followed by a space at the beggining of a line.
+
+If you would like to show your support for ScriptTiger, check out the Patreon page to find out how:  
+https://www.patreon.com/ScriptTiger
