@@ -1,24 +1,23 @@
 # MAC-Address-Lookup
 Tired of paying a subscription service to access an API to resolve MAC address data? Just resolving locally and maintaining your own database with this project is faster, cheaper (FREE!), and more secure.
 
-Just right-click any of the below links to download them to your computer.
+The below master.txt, simplified.txt, and OUI_Complete.zip are regularly synced to IEEE's daily updates. Just right-click any of the below links to download them to your computer.
+
+**This repo requires either the master.txt or simplified.txt present in the same directory to function  
+If you decide to use the simplified.txt, see below for required changes to script**
+
+Master.txt:  
+https://scripttiger.github.io/macs/data/master.txt  
+Complete record of all IEEE-registered OUI blocks reformatted for easier script use.
+
+Simplified.txt:  
+https://scripttiger.github.io/macs/data/simplified.txt  
+Same as master.txt, but block type and vendor address columns removed.
 
 Original source files provided by IEEE:  
 https://standards.ieee.org/develop/regauth/oui36/oui36.csv  
 https://standards.ieee.org/develop/regauth/oui28/mam.csv  
 https://standards.ieee.org/develop/regauth/oui/oui.csv
-
-The below master.txt, simplified.txt, and OUI_Complete.zip are regularly synced to IEEE's daily updates.
-
-Master.txt:  
-https://scripttiger.github.io/macs/data/master.txt
-
-Complete record of all IEEE-registered OUI blocks reformatted for easier script use.
-
-Simplified.txt:  
-https://scripttiger.github.io/macs/data/simplified.txt
-
-Same as master.txt, but block type and vendor address columns removed.
 
 You can download all of the above files packaged together from the following URL:  
 https://scripttiger.github.io/macs/data/OUI_Complete.zip  
