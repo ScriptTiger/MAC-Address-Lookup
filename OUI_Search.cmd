@@ -7,17 +7,17 @@ rem Or visit the following URL for the latest information on this ScriptTiger sc
 rem https://github.com/ScriptTiger/MAC-Address-Lookup
 rem =====
 
-rem Set OUI lookup table file path
-set MASTER=%~dp0master.txt
-rem set MASTER=%~dp0simplified.txt
+rem Set SIMPLE to 0 to use master.txt and 1 to use simplified.txt
+set SIMPLE=0
 
-rem Accept mac addresses as command-line arguments
-
-rem Adjust the search format for the 4-column complete master table
-if not "%~1"=="" set SEARCH=%~1&set FORMAT="tokens=3 delims={}"&goto MAC_Search
-
-rem Adjust the search format for the 2-column simplified master table
-rem if not "%~1"=="" set SEARCH=%~1&set FORMAT="tokens=2 delims={}"&goto MAC_Search
+rem Set OUI lookup table file path and adjust the search format 
+if %SIMPLE%==0 (
+	set MASTER=%~dp0master.txt
+	if not "%~1"=="" set SEARCH=%~1&set FORMAT="tokens=3 delims={}"&goto MAC_Search
+) else (
+	set MASTER=%~dp0simplified.txt
+	if not "%~1"=="" set SEARCH=%~1&set FORMAT="tokens=2 delims={}"&goto MAC_Search
+)
 
 rem Interactive mode prompt
 :Choice

@@ -3,8 +3,9 @@ Tired of paying a subscription service to access an API to resolve MAC address d
 
 The below master.txt, simplified.txt, and OUI_Complete.zip are regularly synced to IEEE's daily updates. Just right-click any of the below links to download them to your computer.
 
-**This repo requires either the master.txt or simplified.txt present in the same directory to function  
-If you decide to use the simplified.txt, see below for required changes to script**
+**This repo requires either the master.txt or simplified.txt present in the same directory to function.  
+NOTE: If you decide to use the simplified.txt, set the SIMPLE variable at the top of the script to 1.  
+To edit the script, simply right-click the OUI_Search.cmd and select "Edit."**
 
 Master.txt:  
 https://scripttiger.github.io/macs/data/master.txt  
@@ -27,18 +28,6 @@ To get started, download the below ZIP file and extract the contents to the same
 https://github.com/ScriptTiger/MAC-Address-Lookup/archive/master.zip
 
 Can be used interactively or simply by using the commmand "oui_search XX-XX-XX-XX-XX-XX" for quicker scripted searches. Accepts all standard mac address formats: XX-XX-XX-XX-XX-XX, XXXX-XXXX-XXXX, XX:XX:XX:XX:XX:XX, XXXX:XXXX:XXXX, XXXXXXXXXXXX, etc. This script requires either the Master or Simplified lookup tables above, based on the level of detail you require. If you just need to resolve MACs to vendor names, just use the Simplified. If you need to resolve MACs to the individual addresses of manufacture, use the Master.
-
-NOTE: If you decide to use the simplified master, please read the top few lines of the script carefully and comment out the following lines:  
-set MASTER=%~dp0master.txt  
-if not "%~1"=="" set SEARCH=%~1&set FORMAT="tokens=3 delims={}"&goto MAC_Search  
-
-And then uncomment the following lines:  
-rem set MASTER=%~dp0simplified.txt  
-rem if not "%~1"=="" set SEARCH=%~1&set FORMAT="tokens=2 delims={}"&goto MAC_Search  
-
-To edit the script, simply right-click the OUI_Search.cmd and select "Edit."  
-To comment a line out, add rem followed by a space at the beginning of the line.  
-To uncomment out a line, remove the rem followed by a space at the beggining of a line.
 
 If you would like to show your support for ScriptTiger, check out the Patreon page to find out how:  
 https://www.patreon.com/ScriptTiger
