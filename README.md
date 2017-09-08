@@ -11,17 +11,17 @@ https://standards.ieee.org/develop/regauth/oui/oui.csv
 The below master.txt, simplified.txt, and OUI_Complete.zip are regularly synced to IEEE's daily updates.
 
 Master.txt:  
-https://scripttiger.github.io/macs/master.txt
+https://scripttiger.github.io/macs/data/master.txt
 
 Complete record of all IEEE-registered OUI blocks reformatted for easier script use.
 
 Simplified.txt:  
-https://scripttiger.github.io/macs/simplified.txt
+https://scripttiger.github.io/macs/data/simplified.txt
 
 Same as master.txt, but block type and vendor address columns removed.
 
 You can download all of the above files packaged together from the following URL:  
-https://scripttiger.github.io/macs/OUI_Complete.zip  
+https://scripttiger.github.io/macs/data/OUI_Complete.zip  
 The above ZIP file is also great if you just need a quick and reliable mirror for the IEEE files, as the IEEE site gets considerable traffic constantly due to the volume and frequency of updates, as well as the whole planet only having one source to get them from. So downloading the files from the original source documents may be difficult at certain times of the day.
 
 To get started, download the below ZIP file and extract the contents to the same directory as either the master.txt or simplified.txt:  
