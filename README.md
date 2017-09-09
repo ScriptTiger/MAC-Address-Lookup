@@ -2,7 +2,7 @@
 Tired of paying a subscription service to access an API to resolve MAC address data? Just resolving locally and maintaining your own database with this project is faster, cheaper (FREE!), and more secure.
 
 **This repo requires either the master.txt or simplified.txt lookup table to be present in the same directory to function.  
-Visit the following URL for more information and to download the latest lookup tables:
+Visit the following URL for more information and to download the latest lookup tables:  
 https://scripttiger.github.io/macs/**
 
 To get started, download the below ZIP file and extract the contents to the same directory as either the master.txt or simplified.txt:  
