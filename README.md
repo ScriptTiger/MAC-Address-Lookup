@@ -12,3 +12,6 @@ Can be used interactively or simply by using the commmand "oui_search XX-XX-XX-X
 
 If you would like to show your support for ScriptTiger, check out the Patreon page to find out how:  
 https://www.patreon.com/ScriptTiger
+
+For more ScriptTiger scripts and goodies, check out ScriptTiger's GitHub Pages website:  
+https://scripttiger.github.io/
