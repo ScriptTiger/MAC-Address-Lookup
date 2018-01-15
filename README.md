@@ -15,3 +15,5 @@ https://www.patreon.com/ScriptTiger
 
 For more ScriptTiger scripts and goodies, check out ScriptTiger's GitHub Pages website:  
 https://scripttiger.github.io/
+
+***REMOVED***
