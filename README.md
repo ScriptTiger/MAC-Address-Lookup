@@ -12,10 +12,9 @@ https://github.com/ScriptTiger/MAC-Address-Lookup/archive/master.zip
 
 Can be used interactively or simply by using the commmand "oui_search XX-XX-XX-XX-XX-XX" for quicker scripted searches. Accepts all standard mac address formats: XX-XX-XX-XX-XX-XX, XXXX-XXXX-XXXX, XX:XX:XX:XX:XX:XX, XXXX:XXXX:XXXX, XXXXXXXXXXXX, etc.
 
-If you would like to show your support for ScriptTiger, check out the Patreon page to find out how:  
-https://www.patreon.com/ScriptTiger
-
 For more ScriptTiger scripts and goodies, check out ScriptTiger's GitHub Pages website:  
 https://scripttiger.github.io/
+
+[![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MZ4FH4G5XHGZ4)
 
 Donate Monero (XMR): 441LBeQpcSbC1kgangHYkW8Tzo8cunWvtVK4M6QYMcAjdkMmfwe8XzDJr1c4kbLLn3NuZKxzpLTVsgFd7Jh28qipR5rXAjx
