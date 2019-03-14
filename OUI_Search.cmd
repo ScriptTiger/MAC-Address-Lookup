@@ -39,15 +39,15 @@ set SEARCH=%SEARCH:-=%
 
 rem Search the MA-S block entries
 
-for /f %FORMAT% %%0 in ('findstr /r /i "[{]%SEARCH:~,9%[}][{]" %MASTER%') do echo %%0&goto Choice
+for /f %FORMAT% %%0 in ('findstr /l /i "{%SEARCH:~,9%}{" %MASTER%') do echo %%0&goto Choice
 
 rem Search the MA-M block entries
 
-for /f %FORMAT% %%0 in ('findstr /r /i "[{]%SEARCH:~,7%[}][{]" %MASTER%') do echo %%0&goto Choice
+for /f %FORMAT% %%0 in ('findstr /l /i "{%SEARCH:~,7%}{" %MASTER%') do echo %%0&goto Choice
 
 rem Search the MA-L block entries
 
-for /f %FORMAT% %%0 in ('findstr /r /i "[{]%SEARCH:~,6%[}][{]" %MASTER%') do echo %%0&goto Choice
+for /f %FORMAT% %%0 in ('findstr /l /i "{%SEARCH:~,6%}{" %MASTER%') do echo %%0&goto Choice
 
 rem Return a response if no results found
 
