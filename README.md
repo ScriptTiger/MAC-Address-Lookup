@@ -1,4 +1,4 @@
-[![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/ScriptTiger)
+[![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/thescripttiger%40gmail.com)
 
 # MAC-Address-Lookup
 Tired of paying a subscription service to access an API to resolve MAC address OUI/vendor data? Just resolving locally and maintaining your own database with this project is faster, cheaper (FREE!), and more secure.
